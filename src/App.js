@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { About, Home, Prices } from "./pages/index";
+import { About, Home, Prices, Error } from "./pages/index";
 
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/prices" element={<Prices />} />
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   );
