@@ -47,3 +47,21 @@ export const Dental_Services = [
     desc: "We provide a variety of orthodontic treatment options, including traditional braces and clear aligners, to straighten your teeth.",
   },
 ];
+
+export const Our_Services = [
+  {
+    img: "",
+    title: "10.324",
+    desc: "Successfully installed implants",
+  },
+  {
+    img: "",
+    title: "4.8",
+    desc: "Average Rating",
+  },
+  {
+    img: "",
+    title: "10.324",
+    desc: "Average Procedure",
+  },
+];
