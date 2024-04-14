@@ -15,6 +15,14 @@ const Wrapper = styled.div`
   .title {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 0;
+  }
+  .underline {
+    width: 260px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #00b8ff;
+    border-radius: 10px;
   }
 `;
 
