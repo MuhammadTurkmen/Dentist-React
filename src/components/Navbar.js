@@ -2,9 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 function Navbar() {
-  return <div>Navbar page</div>;
+  return <Wrapper>Navbar page</Wrapper>;
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  background-color: #00415a;
+`;
 
 export default Navbar;
