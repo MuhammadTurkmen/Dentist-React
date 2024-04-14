@@ -1,12 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+import { Dental_Services } from "../data";
 
 function DentalServices() {
   return (
     <Wrapper>
       <h1 className="title">Our Dental Services</h1>
       <div className="underline"></div>
-      <div className="container"></div>
+      <div className="container">
+        {Dental_Services.map(({ url, title, desc }) => {
+          return <div className="service">{title}</div>;
+        })}
+      </div>
     </Wrapper>
   );
 }

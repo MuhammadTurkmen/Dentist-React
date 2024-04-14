@@ -26,7 +26,7 @@ export const links = [
   },
 ];
 
-const Dental_Services = [
+export const Dental_Services = [
   {
     url: "./images/white-tooth.png",
     title: "Dental Care",
