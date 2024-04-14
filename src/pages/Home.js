@@ -1,8 +1,14 @@
 import React from "react";
 import Hero from "../components/Hero";
+import DentalServices from "../components/DentalServices";
 
 function Home() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <DentalServices />
+    </>
+  );
 }
 
 export default Home;
