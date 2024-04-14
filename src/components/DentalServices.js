@@ -11,7 +11,7 @@ function DentalServices() {
         {Dental_Services.map(({ url, title, desc }, index) => {
           return (
             <div key={index} className="service">
-              <img src={url} alt="title" />
+              <img className="image" src={url} alt="title" />
 
               <h1>{title}</h1>
               <p>{desc}</p>
@@ -36,6 +36,13 @@ const Wrapper = styled.div`
     height: 5px;
     background-color: #00b8ff;
     border-radius: 10px;
+  }
+  .image {
+    width: 167px;
+    height: 148px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 `;
 
