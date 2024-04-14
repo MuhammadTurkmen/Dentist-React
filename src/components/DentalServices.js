@@ -40,6 +40,10 @@ const Wrapper = styled.div`
 
   .service {
     border: 1px solid #00415a;
+    border-radius: 20px;
+    text-align: center;
+    width: 326px;
+    margin: 10rem auto;
   }
 
   .image {
@@ -48,6 +52,7 @@ const Wrapper = styled.div`
     object-fit: cover;
     border-radius: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: -5rem;
   }
 `;
 
