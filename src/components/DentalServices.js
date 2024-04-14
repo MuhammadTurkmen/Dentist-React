@@ -37,6 +37,11 @@ const Wrapper = styled.div`
     background-color: #00b8ff;
     border-radius: 10px;
   }
+
+  .service {
+    border: 1px solid #00415a;
+  }
+
   .image {
     width: 167px;
     height: 148px;
