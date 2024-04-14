@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <Wrapper>
       <div className="container">
-        <img src={Logo} alt="" />
+        <img className="logo" src={Logo} alt="" />
         <div
           className={isSidbarOpen ? "links-container show" : "links-container"}>
           <IoClose
@@ -107,6 +107,37 @@ const Wrapper = styled.div`
     text-decoration: none;
     padding: 0.8rem 2rem;
     border-radius: 100px;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .container {
+      padding: 1rem 2rem;
+      padding-left: 1rem;
+    }
+
+    .links-container {
+      position: static;
+      width: unset;
+      display: flex;
+      flex-direction: row;
+      a {
+        font-size: 20px;
+      }
+
+      a.contact-us {
+        display: none;
+      }
+      .close-icon {
+        display: none;
+      }
+    }
+    .bars {
+      display: none;
+    }
+    .contact-us {
+      display: block;
+      color: #001f2b;
+    }
   }
 `;
 
