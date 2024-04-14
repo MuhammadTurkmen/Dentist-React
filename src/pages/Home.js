@@ -1,10 +1,8 @@
 import React from "react";
-import styled from "styled-components";
+import Hero from "../components/Hero";
 
 function Home() {
-  return <Wrapper>Home page</Wrapper>;
+  return <Hero />;
 }
-
-const Wrapper = styled.div``;
 
 export default Home;
