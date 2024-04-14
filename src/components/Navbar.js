@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import Logo from "../images/logo.svg";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 
 function Navbar() {
+  const [isSidbarOpen, setIsSidbarOpen] = useState(false);
+
   return (
     <Wrapper>
       <div className="container">
         <img src={Logo} alt="" />
-        <div className="links-container">
+        <div
+          className={isSidbarOpen ? "links-container show" : "links-container"}>
           <Link to="/">Home</Link>
           <Link to="/about">About US</Link>
           <Link to="/prices">Prices</Link>
@@ -19,7 +22,7 @@ function Navbar() {
           <Link className="contact-us" to="#footer">
             Kontakt oss
           </Link>
-          <FaBars className="bars" />
+          <FaBars className="bars" onClick={() => setIsSidbarOpen(true)} />
         </div>
       </div>
     </Wrapper>
