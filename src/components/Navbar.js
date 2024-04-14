@@ -28,6 +28,8 @@ const Wrapper = styled.div`
   background-color: #00415a;
   .container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 `;
 
