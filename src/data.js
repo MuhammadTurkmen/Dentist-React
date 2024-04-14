@@ -1,3 +1,7 @@
+import white from "./images/white-tooth.png";
+import bracelat from "./images/ortho-braces-spotlight.png";
+import csmitice from "./images/Cosmetic.jpeg";
+
 export const links = [
   {
     id: 1,
@@ -28,17 +32,17 @@ export const links = [
 
 export const Dental_Services = [
   {
-    url: "./images/white-tooth.png",
+    url: white,
     title: "Dental Care",
     desc: "Our experienced team of dentists provides a wide range of preventive, restorative, and cosmetic services to keep your smile healthy and beautiful.",
   },
   {
-    url: "./images/Cosmetic.jpeg",
+    url: bracelat,
     title: "Cosmetic Dentistry",
     desc: "Our cosmetic dentistry treatments, such as teeth whitening, can enhance the aesthetic appearance of your smile and boost your confidence.",
   },
   {
-    url: "./images/ortho-braces-spotlight.png",
+    url: csmitice,
     title: "Orthodontic Services",
     desc: "We provide a variety of orthodontic treatment options, including traditional braces and clear aligners, to straighten your teeth.",
   },

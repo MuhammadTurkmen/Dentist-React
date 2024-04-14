@@ -8,8 +8,15 @@ function DentalServices() {
       <h1 className="title">Our Dental Services</h1>
       <div className="underline"></div>
       <div className="container">
-        {Dental_Services.map(({ url, title, desc }) => {
-          return <div className="service">{title}</div>;
+        {Dental_Services.map(({ url, title, desc }, index) => {
+          return (
+            <div key={index} className="service">
+              <img src={url} alt="title" />
+
+              <h1>{title}</h1>
+              <p>{desc}</p>
+            </div>
+          );
         })}
       </div>
     </Wrapper>
