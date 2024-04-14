@@ -16,7 +16,9 @@ function Navbar() {
           <Link to="#Services">Services</Link>
         </div>
         <div className="btn-sidbar-container">
-          <Link to="#footer">Kontakt oss</Link>
+          <Link className="contact-us" to="#footer">
+            Kontakt oss
+          </Link>
           <FaBars />
         </div>
       </div>
@@ -32,6 +34,9 @@ const Wrapper = styled.div`
     justify-content: space-between;
   }
   .links-container {
+    display: none;
+  }
+  .contact-us {
     display: none;
   }
 `;
