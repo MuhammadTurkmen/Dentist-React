@@ -32,7 +32,7 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.4rem;
     padding-left: 0;
   }
   .links-container {
