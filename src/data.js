@@ -1,6 +1,9 @@
 import white from "./images/white-tooth.png";
 import bracelat from "./images/ortho-braces-spotlight.png";
 import csmitice from "./images/Cosmetic.jpeg";
+import min_show from "./images/min-show.png";
+import star from "./images/Star.png";
+import car_img from "./images/Card-image-1.png";
 
 export const links = [
   {
@@ -50,17 +53,17 @@ export const Dental_Services = [
 
 export const Our_Services = [
   {
-    img: "",
+    img: car_img,
     title: "10.324",
     desc: "Successfully installed implants",
   },
   {
-    img: "",
+    img: star,
     title: "4.8",
     desc: "Average Rating",
   },
   {
-    img: "",
+    img: min_show,
     title: "10.324",
     desc: "Average Procedure",
   },
