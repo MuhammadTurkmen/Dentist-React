@@ -15,6 +15,7 @@ const Wrapper = styled.div`
   .title {
     text-align: center;
     font-size: 30px;
+    margin-top: 112px;
     margin-bottom: 0;
   }
   .underline {

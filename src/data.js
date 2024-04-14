@@ -25,3 +25,18 @@ export const links = [
     path: "#contact",
   },
 ];
+
+const Dental_Services = [
+  {
+    title: "Dental Care",
+    desc: "Our experienced team of dentists provides a wide range of preventive, restorative, and cosmetic services to keep your smile healthy and beautiful.",
+  },
+  {
+    title: "Cosmetic Dentistry",
+    desc: "Our cosmetic dentistry treatments, such as teeth whitening, can enhance the aesthetic appearance of your smile and boost your confidence.",
+  },
+  {
+    title: "Orthodontic Services",
+    desc: "We provide a variety of orthodontic treatment options, including traditional braces and clear aligners, to straighten your teeth.",
+  },
+];
