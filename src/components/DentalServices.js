@@ -13,7 +13,7 @@ function DentalServices() {
             <div key={index} className="service">
               <img className="image" src={url} alt="title" />
 
-              <h1>{title}</h1>
+              <h1 className="service-title">{title}</h1>
               <p>{desc}</p>
             </div>
           );
@@ -38,12 +38,27 @@ const Wrapper = styled.div`
     border-radius: 10px;
   }
 
+  .container {
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem 1rem;
+    padding: 0 2rem;
+  }
+
   .service {
     border: 1px solid #00415a;
     border-radius: 20px;
     text-align: center;
     width: 326px;
-    margin: 10rem auto;
+    margin: 0 auto;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+
+    p {
+      font-size: 16px;
+    }
   }
 
   .image {
@@ -53,6 +68,10 @@ const Wrapper = styled.div`
     border-radius: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: -5rem;
+  }
+  .service-title {
+    font-size: 30px;
+    margin-top: 2rem;
   }
 `;
 
