@@ -31,6 +31,9 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
   }
+  .links-container {
+    display: none;
+  }
 `;
 
 export default Navbar;
