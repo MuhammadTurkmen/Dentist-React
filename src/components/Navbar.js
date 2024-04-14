@@ -24,7 +24,8 @@ function Navbar() {
               <Link
                 className={name === "Kontakt oss" ? "contact-us" : ""}
                 key={id}
-                to={path}>
+                to={path}
+                onClick={() => setIsSidbarOpen(false)}>
                 {name}
               </Link>
             );
@@ -84,8 +85,6 @@ const Wrapper = styled.div`
   .bars {
     font-size: 30px;
     color: #00b8ff;
-  }
-  .bars:hover {
   }
 
   .hide {
