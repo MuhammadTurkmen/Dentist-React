@@ -40,6 +40,7 @@ const Wrapper = styled.div`
 
   .container {
     margin-top: 10rem;
+    margin-bottom: 8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
