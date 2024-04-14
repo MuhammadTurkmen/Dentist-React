@@ -19,7 +19,7 @@ function Navbar() {
           <Link className="contact-us" to="#footer">
             Kontakt oss
           </Link>
-          <FaBars />
+          <FaBars className="bars" />
         </div>
       </div>
     </Wrapper>
@@ -32,12 +32,18 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    padding-left: 0;
   }
   .links-container {
     display: none;
   }
   .contact-us {
     display: none;
+  }
+  .bars {
+    font-size: 30px;
+    color: #00b8ff;
   }
 `;
 
