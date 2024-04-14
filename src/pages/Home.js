@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import DentalServices from "../components/DentalServices";
 import Clear from "../components/Clear";
+import OurServices from "../components/OurServices";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Hero />
       <DentalServices />
       <Clear />
+      <OurServices />
     </>
   );
 }
