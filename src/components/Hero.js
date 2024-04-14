@@ -7,10 +7,15 @@ function Hero() {
   return (
     <Wrapper>
       <div className="container">
-        <h3>Velkommen til oss</h3>
+        <h3 className="subtitle">Velkommen til oss</h3>
         <div className="underline"></div>
-        <h1>Vi holder til midt på St. Hanshaugen i Oslo sentrum.</h1>
-        <Link to="#">Book Now</Link>
+        <h1 className="title">
+          Vi holder til midt på St.
+          <br /> Hanshaugen i Oslo sentrum.
+        </h1>
+        <Link to="#" className="btn">
+          Book Now
+        </Link>
       </div>
     </Wrapper>
   );
@@ -28,6 +33,43 @@ const Wrapper = styled.div`
   h3,
   p {
     margin: 0;
+  }
+
+  .container {
+    text-align: center;
+    color: #fff;
+    padding-top: 132px;
+    padding-bottom: 3rem;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .underline {
+    width: 100px;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #00b8ff;
+    border-radius: 10px;
+  }
+  a.btn {
+    background-color: #00b8ff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #001f2b;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  a.btn:hover {
+    transform: scale(1.1);
+    color: #fff;
   }
 `;
 
